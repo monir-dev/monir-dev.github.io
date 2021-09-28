@@ -98,11 +98,16 @@
   width: 28px;
 }
 
+.contact-details-container:hover {
+  transform: scale(1.05);
+}
+
 .contact-details-container {
   padding: 4.5em 2.5em 2em 2.5em;
   border-radius: 10px;
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 20px 43px 0px rgba(0, 0, 0, 0.1);
+  transition: transform .5s;
 }
 
 .contact-details-item {
