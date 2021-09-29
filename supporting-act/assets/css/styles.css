@@ -207,3 +207,7 @@
   color: rgb(121, 121, 124) !important;
 }
 
+.list-card-body {
+  min-height: 14em;
+}
+
